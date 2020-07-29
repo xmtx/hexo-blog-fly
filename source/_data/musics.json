@@ -1,28 +1,92 @@
 [
-	{
-		"name": "Beautiful World",
-		"artist": "Westlife",
-		"url": "http://music.163.com/song/media/outer/url?id=20707408.mp3",
-		"cover": "https://p2.music.126.net/MEWr-THANcYy-1jvx334_Q==/109951163167214019.jpg?param=130y130"
-	},{
-		"name": "River Flows in You",
-		"artist": "Yiruma",
-		"url": "http://music.163.com/song/media/outer/url?id=26237342.mp3",
-		"cover": "https://p2.music.126.net/8ZRSyI0ZN_4ah8uzsNd1mA==/2324367581169008.jpg?param=130y130"
-	},{
-		"name": "Hello My Love",
-		"artist": "Westlife",
-		"url": "http://music.163.com/song/media/outer/url?id=1338728670.mp3",
-		"cover": "https://p2.music.126.net/P2_COhPmlhsOpoj31DDLeA==/109951163785867445.jpg?param=130y130"
-	},{
-		"name": "If I Let You Go",
-		"artist": "Westlife",
-		"url": "http://music.163.com/song/media/outer/url?id=27220254.mp3",
-		"cover": "https://p2.music.126.net/TcOOoZSbISGT9AkhUtwOsg==/5644892697128237.jpg?param=130y130"
-	},{
-		"name": "Señorita",
-		"artist": "Shawn Mendes/Camila Cabello",
-		"url": "http://music.163.com/song/media/outer/url?id=1373168742.mp3",
-		"cover": "https://p2.music.126.net/eSrLKe5g3U8jX-lb629q6A==/109951164162885535.jpg?param=130y130"
-	}
+  {
+    "name": "欠我个未来",
+    "artist": "平凡的艾岩",
+    "url": "http://music.163.com/song/media/outer/url?id=1321378753.mp3",
+    "cover": "https://p1.music.126.net/TfNdaxiZXyLGg_ezf4e9aA==/109951163645926048.jpg"
+  },
+  {
+    "name": "鬼迷心窍",
+    "artist": "李宗盛",
+    "url": "http://music.163.com/song/media/outer/url?id=108740.mp3",
+    "cover": "https://p1.music.126.net/XXlcoIURJoLp3D5YcX1V9g==/109951163071279000.jpg"
+  },
+  {
+    "name": "初恋情人",
+    "artist": "刘小慧",
+    "url": "http://music.163.com/song/media/outer/url?id=263720.mp3",
+    "cover": "https://p2.music.126.net/tUpc-ZMYx1WPYfdU7X0qxA==/18631224534157924.jpg"
+  },
+  {
+    "name": "相见恨晚",
+    "artist": "彭佳慧",
+    "url": "http://music.163.com/song/media/outer/url?id=280761.mp3",
+    "cover": "https://p2.music.126.net/GpsgjHB_9XgtrBVXt8XX4w==/93458488373078.jpg"
+  },
+  {
+    "name": "都是你的错",
+    "artist": "陈慧琳",
+    "url": "http://music.163.com/song/media/outer/url?id=213326.mp3",
+    "cover": "https://p1.music.126.net/gLhvoQse-ygSE9P5bwkuRA==/910395627798766.jpg"
+  },
+  {
+    "name": "烹爱",
+    "artist": "孙子涵",
+    "url": "http://music.163.com/song/media/outer/url?id=473742028.mp3",
+    "cover": "https://p1.music.126.net/2fDkeTWsePOCVXlZlfVzSw==/19183179369899625.jpg"
+  },
+  {
+    "name": "爱我的人和我爱的人",
+    "artist": "游鸿明",
+    "url": "http://music.163.com/song/media/outer/url?id=176496.mp3",
+    "cover": "https://p1.music.126.net/0GN5mg4qzxmqGES0H3AdhQ==/98956046505536.jpg"
+  },
+  {
+    "name": "回忆里的那个人",
+    "artist": "李行亮",
+    "url": "http://music.163.com/song/media/outer/url?id=29572689.mp3",
+    "cover": "https://p2.music.126.net/k6P7fwQzVEnvgCx1Yl8Ecw==/6648746814192921.jpg"
+  },
+  {
+    "name": "遗憾",
+    "artist": "王佳杨",
+    "url": "http://music.163.com/song/media/outer/url?id=1385805666.mp3",
+    "cover": "https://p1.music.126.net/cL2cde_T2P-c7_-_CxXQYA==/109951164312976856.jpg"
+  },
+  {
+    "name": "披着羊皮的狼",
+    "artist": "谭咏麟",
+    "url": "http://music.163.com/song/media/outer/url?id=152517.mp3",
+    "cover": "https://p2.music.126.net/jiynw5C7gnn8kmpEj-UhDQ==/109951165154275149.jpg"
+  },
+  {
+    "name": "一生爱你千百回",
+    "artist": "梅艳芳",
+    "url": "http://music.163.com/song/media/outer/url?id=276129.mp3",
+    "cover": "https://p1.music.126.net/277Ag7Ksu94nhJgXaj2A7Q==/109951163066639996.jpg"
+  },
+  {
+    "name": "伤心太平洋",
+    "artist": "葛漂亮",
+    "url": "http://music.163.com/song/media/outer/url?id=8716935.mp3",
+    "cover": "http://p2.music.126.net/jt9oJr8EpAvnl1y329jEPw==/109951164857877892.jpg"
+  },
+  {
+    "name": "喜欢你",
+    "artist": "邓紫棋",
+    "url": "http://music.163.com/song/media/outer/url?id=28949444.mp3",
+    "cover": "http://p1.music.126.net/u_1EudmF8Swgow6vfgYe1g==/8896148580676276.jpg"
+  },
+  {
+    "name": "望爱却步",
+    "artist": "于洋",
+    "url": "http://music.163.com/song/media/outer/url?id=863489400.mp3",
+    "cover": "https://p1.music.126.net/nMeLwYaLgXd88vphYkRfkw==/109951163390107400.jpg"
+  },
+  {
+    "name": "爱情惹的祸",
+    "artist": "姜玉阳",
+    "url": "http://music.163.com/song/media/outer/url?id=103886.mp3",
+    "cover": "https://p1.music.126.net/xwB1kkJRC79jEqiElUePHw==/47278999999720.jpg"
+  }
 ]

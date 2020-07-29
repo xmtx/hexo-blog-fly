@@ -17,10 +17,10 @@ menu:
   AV:
     url: /AV
     icon: fa-music
-  # List: 
+  # List:
   # url: /List
   # icon: fa-heartbeat
-  # children: 
+  # children:
   #   -
   #     name: 音乐
   #     url: /List/music
@@ -41,8 +41,6 @@ menu:
   Friends:
     url: /friends
     icon: fa-address-book
-
-
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -66,16 +64,21 @@ dream:
 music:
   enable: true
   showTitle: false
+  autoHide: true 
   title: 听听音乐
+  server: netease #require	music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist #require song, playlist, album, search, artist
+  id: 503838841 #require	song id / playlist id / album id / search keyword
   fixed: false # 开启吸底模式
   autoplay: false # 是否自动播放
-  theme: '#542674'
-  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  theme: "#542674"
+  loop: "all" # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: "list" # 音频循环顺序, 可选值: 'list', 'random'
+  preload: "auto" # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: false # 列表默认折叠
   listMaxHeight: "197px" #列表最大高度
+  hideLrc: false # 是否隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -83,16 +86,15 @@ video:
   enable: true
   showTitle: true
   title: 看看视频
-  url: https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4 # 必填
+  url: https://v.qq.com/txp/iframe/player.html?vid=d0032x85stp # 必填
   pic:
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
-  theme: '#42b983'
+  theme: "#42b983"
   loop: true # 是否循环播放
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  preload: "auto" # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7
-
 
 # Whether to display the title of the recommended posts
 # 是否显示推荐文章的标题
@@ -119,7 +121,7 @@ indexbtn:
 socialLink:
   qq: 948840751
   github: shw2018
-  weibo: 3010027571  # 微风穿云隙
+  weibo: 3010027571 # 微风穿云隙
   email: 948840751@qq.com
   zhihu: hongwei-60-34 # Hongwei
 
@@ -192,20 +194,19 @@ myProjects:
   data:
     DeepLearning-500-questions:
       icon: fa-file-text-o
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      iconBackground: "linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)"
       url: https://github.com/scutan90/DeepLearning-500-questions
       desc: 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。.
     hexo-theme-matery:
       icon: fa-meetup
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+      iconBackground: "linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)"
       url: http://github.com/blinkfox/hexo-theme-matery
       desc: This is a Hexo blog theme with 'Material Design' and responsive design.
     hexo-blog-fly:
       icon: fa-file-text-o
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      iconBackground: "linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)"
       url: https://github.com/shw2018/hexo-blog-fly
       desc: 我的博客源码开源小项目
-
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -214,22 +215,22 @@ mySkills:
   enable: true
   data:
     算法:
-      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
+      background: "linear-gradient(to right, #FF0066 0%, #FF00CC 100%)"
       percent: 80%
     C++:
-      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+      background: "linear-gradient(to right, #9900FF 0%, #CC66FF 100%)"
       percent: 70%
     Python:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+      background: "linear-gradient(to right, #2196F3 0%, #42A5F5 100%)"
       percent: 95%
     Java:
-      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+      background: "linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)"
       percent: 50%
     SQL:
-      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
+      background: "linear-gradient(to right, #4CAF50 0%, #81C784 100%)"
       percent: 50%
     HTML:
-      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
+      background: "linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)"
       percent: 70%
 
 # config gallery of my photos in about page.
@@ -247,7 +248,6 @@ myGallery:
     - /medias/featureimages/7.jpg
     - /medias/featureimages/8.jpg
     - /medias/featureimages/9.jpg
-
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -297,9 +297,9 @@ valine:
   notify: true
   verify: true
   visitor: true
-  avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  avatar: "mm" # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
+  placeholder: "just go go" # Comment Box placeholder
 
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
@@ -394,7 +394,7 @@ libs:
     matery: /js/matery.js
     search: /js/search.js
     #  洪卫 shw2018  add 2019.09.10
-    sakura: /js/sakura.js  #这文件真大...里面编码了个图片
+    sakura: /js/sakura.js #这文件真大...里面编码了个图片
     fireworks: /js/fireworks.js
     wenzi: /js/wenzi.js
     xuehuapiaoluo: /js/xuehuapiaoluo.js
@@ -406,51 +406,50 @@ libs:
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
-featureImages: 
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+featureImages:
+  - /medias/featureimages/0.jpg
+  - /medias/featureimages/1.jpg
+  - /medias/featureimages/2.jpg
+  - /medias/featureimages/3.jpg
+  - /medias/featureimages/4.jpg
+  - /medias/featureimages/5.jpg
+  - /medias/featureimages/6.jpg
+  - /medias/featureimages/7.jpg
+  - /medias/featureimages/8.jpg
+  - /medias/featureimages/9.jpg
+  - /medias/featureimages/10.jpg
+  - /medias/featureimages/11.jpg
+  - /medias/featureimages/12.jpg
+  - /medias/featureimages/13.jpg
+  - /medias/featureimages/14.jpg
+  - /medias/featureimages/15.jpg
+  - /medias/featureimages/16.jpg
+  - /medias/featureimages/17.jpg
+  - /medias/featureimages/18.jpg
+  - /medias/featureimages/19.jpg
+  - /medias/featureimages/20.jpg
+  - /medias/featureimages/21.jpg
+  - /medias/featureimages/22.jpg
+  - /medias/featureimages/23.jpg
+    # default configs that the default policy for every articles/posts
+    # default 配置文章的默认转载规则
 
-  # default configs that the default policy for every articles/posts
-  # default 配置文章的默认转载规则
+    # you can define reprint policy for a single article in the front-matter of the specific md file using this key: reprintPolicy
+    # 您可以使用在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则
 
-  # you can define reprint policy for a single article in the front-matter of the specific md file using this key: reprintPolicy
-  # 您可以使用在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则
+    # 可用的转载规则有（available reprint policies are）：
+    # 这些转载规则的意义请参考(you can refer to this link FMI)：https://creativecommons.org/choose/?lang=zh
+    # cc_by（知识共享署名 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
+    # cc_by_nd（知识共享署名-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
+    # cc_by_sa（知识共享署名-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-ShareAlike 4.0 International License）
+    # cc_by_nc（知识共享署名-非商业性使用 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
+    # cc_by_nc_nd（知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License）
+    # cc_by_nc_sa（知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License）
 
-  # 可用的转载规则有（available reprint policies are）：
-  # 这些转载规则的意义请参考(you can refer to this link FMI)：https://creativecommons.org/choose/?lang=zh
-  # cc_by（知识共享署名 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
-  # cc_by_nd（知识共享署名-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
-  # cc_by_sa（知识共享署名-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-ShareAlike 4.0 International License）
-  # cc_by_nc（知识共享署名-非商业性使用 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
-  # cc_by_nc_nd（知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License）
-  # cc_by_nc_sa（知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License）
+    # cc0（CC0 1.0 通用 (CC0 1.0) 公共领域贡献 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication） https://creativecommons.org/publicdomain/zero/1.0/deed.zh
 
-  # cc0（CC0 1.0 通用 (CC0 1.0) 公共领域贡献 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication） https://creativecommons.org/publicdomain/zero/1.0/deed.zh
-
-  # noreprint（不允许转载 not allowed to reprint）
-  # pay（付费转载 pay for reprinting）
+    # noreprint（不允许转载 not allowed to reprint）
+    # pay（付费转载 pay for reprinting）
 
 reprint:
   enable: fasle # whether enable reprint section 是否启用“转载规则限定模块”
@@ -474,7 +473,7 @@ weather:
   enable: true
 
 # 洪卫 shw2018 add 2019.09.10
-# 鼠标点击文字特效 
+# 鼠标点击文字特效
 wenzi:
   enable: true
 
@@ -483,7 +482,7 @@ wenzi:
 xuehuapiaoluo:
   enable: true
 
-# Tidio online contact 
+# Tidio online contact
 tidio:
   enable: true
   public_key: xxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -504,12 +503,8 @@ ribbon:
   size: 150 #彩带大小, 默认: 90
   alpha: 0.6 #彩带透明度 (0 ~ 1), 默认: 0.6
   zIndex: -1 #背景的z-index属性，css属性用于控制所在层的位置, 默认: -1
-  click_to_change: false  #设置是否每次点击都更换彩带
+  click_to_change: false #设置是否每次点击都更换彩带
 
 #背景动态彩带
 ribbon_dynamic:
-  enable: true 
-
-
-
-
+  enable: true

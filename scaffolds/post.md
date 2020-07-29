@@ -1,15 +1,15 @@
 ---
-title: {{ title }}
-date: {{ date }}
-author: 洪卫
-img: 
-coverImg: 
+title: { { title } }
+date: { { date } }
+author: xiaoming
+img:
+coverImg:
 top: false
 cover: false
 toc: true
 mathjax: false
-password: 
-summary: 
+password:
+summary:
 tags:
 categories:
 ---
